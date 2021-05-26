@@ -1,0 +1,22 @@
+/* Made by Tenzin Low (tenzinhl@uw.edu)*/
+
+/* Header/Logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Profile photo */
+.profile-photo {
+  width: auto;
+  height: auto;
+  max-height: 45vw;
+}
+@media (min-height: 400px) {
+  .profile-photo {
+    max-height: 200px;
+  }
+}
