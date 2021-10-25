@@ -6,6 +6,7 @@
   text-align: center;
   background: #1abc9c;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   display: flex;
   flex-direction: row;
@@ -13,12 +14,42 @@
   align-items: center;
 }
 
+/* Background image */
+body {
+  background-image: url("images/Muted_Landscapes_Ridge_Still_Shift-HD.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#main-body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  border: 1px solid black;
+  width: 800px;
+  margin: auto;
+}
+
+.header-link {
+  color: white;
+}
+
+a.header-link:hover {
+  color: rgb(255, 0, 0);
+}
+
+a.header-link:active {
+  color: lightblue;
+}
+
 /* Profile photo */
-.profile-photo {
+#profile-photo {
   width: auto;
-  height: auto;
-  max-height: 50vh;
+  height: 50vh;
+  min-height: 3cm;
+  max-height: 10cm;
   max-width: 100%;
+  border-radius: 50%;
 }
 /* @media (min-height: 400px) {
   .profile-photo {
