@@ -41,6 +41,7 @@ body {
   padding: 30px 60px;
   margin: 20px auto;
   border-radius: 6%;
+  box-shadow: 5px 5px 30px black;
 }
 
 .header-link {
